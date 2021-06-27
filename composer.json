@@ -1,0 +1,12 @@
+{
+    "name": "test/job",
+    "authors": [
+        {
+            "name": "Stanley",
+            "email": "chido.nduaguibe@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
