@@ -150,5 +150,5 @@ $genre = array_keys($genre);  //get all existing genre
     <?php } ?>
 
 <!--end of  Movie cards section of the page  -->
-
+<script src="test.js"  ></script>
 <?php include 'footer.php'  ?>
