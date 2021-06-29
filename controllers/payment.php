@@ -47,7 +47,7 @@ if (isset($_POST['addCard'])) {
   curl_setopt($ch, CURLOPT_POST, true);
   curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
   curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    "Authorization: Bearer sk_test_df4bf7201fe01e03d0f432f11c1144a2029127ba",
+    "Authorization: Bearer",
     "Cache-Control: no-cache",
   ));
 
@@ -104,7 +104,7 @@ if (isset($_POST['pay'])) {
   curl_setopt($ch, CURLOPT_POST, true);
   curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
   curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    "Authorization: Bearer sk_test_df4bf7201fe01e03d0f432f11c1144a2029127ba",
+    "Authorization: Bearer ",
     "Cache-Control: no-cache",
   ));
 
@@ -141,7 +141,7 @@ if (isset($_GET['reference'])) {
 
   curl_setopt($ch, CURLOPT_URL, VERPayment . $_GET['reference']);
   curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    "Authorization: Bearer sk_test_df4bf7201fe01e03d0f432f11c1144a2029127ba",
+    "Authorization: Bearer ",
     "Cache-Control: no-cache",
   ));
 
